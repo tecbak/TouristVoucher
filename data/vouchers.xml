@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/voucher.xsl'?>
+<vch:vouchers xmlns:vch="http://tourist-voucher.com" xmlns:htl="http://tourist-voucher.com/hotel" >
+    <vch:touristVoucher id="e1">
+        <vch:type>Vacation</vch:type>
+        <vch:country>Egypt</vch:country>
+        <vch:days>10</vch:days>
+        <vch:transport>Plane</vch:transport>
+        <htl:hotel>
+            <htl:stars>5</htl:stars>
+            <htl:meals>AI</htl:meals>
+            <htl:numberOfPersons>2</htl:numberOfPersons>
+            <htl:airCondition available="true"/>
+            <htl:tv available="true"/>
+        </htl:hotel>
+        <vch:cost transferIncluded="true">17000</vch:cost>
+    </vch:touristVoucher>
+
+    <vch:touristVoucher id="c1">
+        <vch:type>Excursion</vch:type>
+        <vch:country>Czech Republic</vch:country>
+        <vch:days>5</vch:days>
+        <vch:transport>Coach</vch:transport>
+        <htl:hotel>
+            <htl:stars>3</htl:stars>
+            <htl:meals>BB</htl:meals>
+            <htl:numberOfPersons>1</htl:numberOfPersons>
+            <htl:airCondition available="false"/>
+            <htl:tv available="true"/>
+        </htl:hotel>
+        <vch:cost transferIncluded="false">3125</vch:cost>
+    </vch:touristVoucher>
+
+    <vch:touristVoucher id="u1">
+        <vch:type>Holiday</vch:type>
+        <vch:country>Ukraine</vch:country>
+        <vch:days>2</vch:days>
+        <vch:transport>Train</vch:transport>
+        <htl:hotel>
+            <htl:stars>4</htl:stars>
+            <htl:meals>HB</htl:meals>
+            <htl:numberOfPersons>2</htl:numberOfPersons>
+            <htl:airCondition available="true"/>
+            <htl:tv available="false"/>
+        </htl:hotel>
+        <vch:cost transferIncluded="true">4200</vch:cost>
+    </vch:touristVoucher>
+
+</vch:vouchers>
